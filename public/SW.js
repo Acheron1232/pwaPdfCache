@@ -3,5 +3,11 @@ self.addEventListener("install",()=>{
 })
 
 self.addEventListener("activate", ()=>{
-    console.log("ye baby activated")
+    console.log("ye baby activated2")
 })
+
+self.addEventListener("fetch", (event)=>{
+    console.log(event.request)
+})
+
+console.log(self)
