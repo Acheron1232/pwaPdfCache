@@ -25,6 +25,7 @@ import { ref, watch } from 'vue';
     <input type="file" @change="onUploadChange">
     <div>File name {{ pdfName }}</div>
     <button>Store in cache</button>
+    <img src="https://i.pinimg.com/736x/c5/90/09/c5900925eb22f06e426208a7b05035a9.jpg"/>
   </div>
 </template>
 
